@@ -70,7 +70,7 @@ KPIs: 1,198 Total Patients · 12.61% Mortality Rate · 64.76 Average Recovery Sc
 
 KPIs: 4.57 Average Wait Time · 2.64 Average Length of Stay · 20 Doctors · 3,942 Admissions · 59.90 Patients per Doctor · 5 Hospitals
 - Annual Admission Trend by year (line chart)
-- Average Wait Time by Branch (bar chart) , Manitoba/Quebec highest (4.8), British Columbia lowest (4.3)
+- Average Wait Time by Branch (bar chart) , MCH Winnipeg/MCH Montreal highest (4.8), MCH Vancouver lowest (4.3)
 - Length of Stay by Department (step chart) , Psychiatry highest (2.99 days), Pediatrics lowest (2.49 days)
 - Doctor Workload table , patients managed, consultations, recovery score per doctor
 
@@ -138,7 +138,7 @@ Total_Revenue = SUM(Fact_Hospital_Visits[Treatment_Cost])
 
 - **Acute Pancreatitis and Meningitis drive the highest readmission risk**, at 41.74% and 40.85% respectively , well above the network average of 37.11%.
 - **Oncology has the strongest recovery outcomes** (65.8 average recovery score) despite typically being a higher-acuity department, while Nephrology trails at 63.2.
-- **Manitoba and Quebec branches have the longest average wait times** (4.8), roughly 12% higher than British Columbia (4.3), pointing to a capacity or staffing gap worth investigating.
+- **MCH Winnipeg and MCH Montreal have the longest average wait times** (4.8), roughly 12% higher than MCH Vancouver (4.3), pointing to a capacity or staffing gap worth investigating.
 - **The network is heavily insurance-dependent** , 89.11% of revenue relies on insurance providers, with Alberta Blue Cross as the single largest partner at $809K.
 - **Orthopedics is the top revenue-generating department** ($1.4M) but its profit margin is comparable to lower-revenue departments like Pediatrics, suggesting cost structure , not volume , is the bigger margin driver.
 - **Only 50% of patients are discharged as a clean outcome**; the rest is split across Deceased, Admitted, Left Against Advice, and Referred , worth breaking down further by department.
@@ -146,7 +146,7 @@ Total_Revenue = SUM(Fact_Hospital_Visits[Treatment_Cost])
 ## Recommendations
 
 1. Investigate root causes of high readmission for Acute Pancreatitis and Meningitis (e.g. discharge protocols, follow-up care) given they sit well above the network average.
-2. Review staffing/capacity at the Manitoba and Quebec branches to address the wait-time gap versus British Columbia.
+2. Review staffing/capacity at the MCH Winnipeg and MCH Montreal branches to address the wait-time gap versus MCH Vancouver.
 3. Diversify insurance partnerships to reduce reliance on a small number of providers (currently 89% of revenue).
 4. Audit cost structure in high-revenue departments like Orthopedics to identify margin improvement opportunities.
 
