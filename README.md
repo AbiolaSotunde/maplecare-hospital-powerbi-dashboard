@@ -168,7 +168,7 @@ Total_Revenue = SUM(Fact_Hospital_Visits[Treatment_Cost])
 
 ## Author
 
-Abiola Sotunde - Data Analyst | Health Tech | GitHub (https://github.com/AbiolaAyeni) | Linkedin ([www.linkedin.com/in/abiolaayeni](https://www.linkedin.com/in/abiolaayeni))
+Abiola Sotunde - Data Analyst | Health Tech | GitHub (https://github.com/Abiolasotunde) | Linkedin ([www.linkedin.com/in/abiolasotunde](https://www.linkedin.com/in/abiolasotunde))
 
 ## Files in This Repository
 
